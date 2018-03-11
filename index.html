@@ -49,6 +49,23 @@
             <td>Sat, 15 Sep 2012<br />11am - 4pm</td>
         </tr>
     </table>
-    
+    <form action="http://www.example.com/form.php" method="get">
+        <fieldset>
+            <legend>Register your interest</legend>
+            <p><label class="title" for="name">Your name:</label>
+                <input type="text" name="name" id="name"><br />
+                <label class="title" for="email">Your email:</label>
+                <input type="text" name="email" id="email"></p>
+            <p><label for="location" class="title">Your closest center:</label>
+                <select name="location" id="location">
+                    <option value="ny">New York</option>
+                    <option value="il">Chicago</option>
+                    <option value="ca">San Francisco</option>
+                </select></p>
+            <span class="title">Are you a member?</span>
+            <label><input type="radio" name="member" value="yes" /></label>
+            <label><input type="radio" name="member" value="no" /></label>
+        </fieldset>
+    </form>
 </body>
 </html>
