@@ -28,3 +28,14 @@ th, td {
     border-bottom: 1px solid #cbd2d8;
     border-right: 1ps solid #cbd2d8;
 }
+
+tr.head th {
+    color: #ffffff;
+    background-color: #90b4d6;
+    border-bottom: 2px solid #547ca0;
+    border-right: 1px solid #749abe;
+    border-top: 1px solid #90b4d6;
+    text-align: center;
+    text-shadow: -1px -1px 1px #666666;
+    letter-spacing: 0.15em;
+}
